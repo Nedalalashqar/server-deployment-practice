@@ -1,5 +1,4 @@
-  
-'use strict';
+  'use strict';
 require('dotenv').config();
 
 const server = require('./server.js');
