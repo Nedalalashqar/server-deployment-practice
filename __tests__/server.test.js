@@ -5,7 +5,7 @@ const request = supertest(server.app);
 
 describe('my Server', ()=> {
     it(' Not Found Request', async () => {
-        const response = await request.get('/sss');
+        const response = await request.get('/asd');
         expect(response.status).toEqual(404);
     });
 
